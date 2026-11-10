@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보 처리방침 · Readest 개인용</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="eyebrow"><a href="./">Readest 개인용</a></p>
+  <h1>개인정보 처리방침</h1>
+  <p class="meta">시행일 2026년 11월 10일</p>
+
+  <p class="lead">이 앱은 운영 서버가 없습니다. 사용자의 데이터는 사용자의 기기와, 사용자가 연결한 본인의 Google Drive에만 저장됩니다.</p>
+
+  <h2>1. Google 사용자 데이터에 접근하는 방식</h2>
+  <p>사용자가 앱 설정에서 Google Drive를 연결하면 Google 로그인 화면이 열리고, 사용자가 동의하면 앱은 <code>https://www.googleapis.com/auth/drive.file</code> 권한을 받습니다. 이 권한은 이 앱이 직접 만들었거나 사용자가 이 앱으로 연 파일에만 미칩니다. 앱은 Drive의 다른 파일, Gmail, 연락처, 캘린더 등 그 밖의 Google 데이터에 접근하지 않습니다.</p>
+
+  <h2>2. 데이터를 사용하는 방식</h2>
+  <p>Drive 접근은 한 가지 목적에만 씁니다. 사용자의 기기들 사이에서 서재를 동기화하는 것입니다. 앱은 Drive에 다음 파일을 만들고 읽고 고칩니다.</p>
+  <ul>
+    <li>사용자가 서재에 추가한 책 파일과 표지</li>
+    <li>읽은 위치, 책갈피, 하이라이트, 메모</li>
+    <li>동기화 상태를 맞추기 위한 목록 파일</li>
+  </ul>
+  <p>이 데이터를 광고, 분석, 프로파일링, 인공지능 모델 학습에 쓰지 않습니다.</p>
+
+  <h2>3. 데이터를 저장하는 곳</h2>
+  <ul>
+    <li><strong>사용자의 기기:</strong> 책, 읽기 기록, 앱 설정. Google 로그인 토큰은 기기의 보안 저장소에 보관합니다.</li>
+    <li><strong>사용자의 Google Drive:</strong> 위 2번의 파일.</li>
+  </ul>
+  <p>개발자는 서버를 운영하지 않으며, 사용자의 책이나 읽기 기록, Google 계정 정보를 받거나 보관하지 않습니다.</p>
+
+  <h2>4. 데이터를 공유하는 대상</h2>
+  <p>없습니다. Google 사용자 데이터를 제3자에게 판매, 이전, 공유하지 않습니다. 사용 통계와 오류 보고 전송 기능은 이 빌드에서 꺼져 있습니다.</p>
+  <p>번역, 사전, 음성 읽기처럼 사용자가 직접 켜는 선택 기능은 그 기능을 쓸 때에만 해당 외부 서비스로 요청을 보냅니다(예: 선택한 문장). 이때 Google Drive의 데이터는 보내지 않습니다.</p>
+
+  <h2>5. 보관과 삭제</h2>
+  <ul>
+    <li>앱 설정에서 Google Drive 연결을 끊으면 기기에 저장된 로그인 토큰이 지워집니다.</li>
+    <li>Drive에 저장된 파일은 사용자가 Google Drive에서 직접 지울 수 있습니다.</li>
+    <li>앱의 접근 권한은 <a href="https://myaccount.google.com/permissions" rel="noopener">Google 계정의 서드 파티 액세스 관리</a>에서 언제든 철회할 수 있습니다.</li>
+    <li>앱을 삭제하면 기기에 있던 데이터가 함께 지워집니다.</li>
+  </ul>
+
+  <h2>6. Google API 서비스 사용자 데이터 정책</h2>
+  <p>이 앱이 Google API에서 받은 정보를 사용하고 다른 앱으로 이전하는 방식은 제한적 사용 요건을 포함한 <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API 서비스 사용자 데이터 정책</a>을 따릅니다.</p>
+
+  <h2>7. 문의</h2>
+  <p><a href="https://github.com/KKOKKU/Public_site/issues" rel="noopener">github.com/KKOKKU/Public_site/issues</a>에 글을 남겨 주세요.</p>
+
+  <hr>
+
+  <div lang="en">
+  <h2>Privacy Policy (English)</h2>
+  <p class="meta">Effective 10 November 2026</p>
+  <p>This app has no backend server. Your data stays on your device and in your own Google Drive, if you connect it.</p>
+  <p><strong>Access.</strong> When you connect Google Drive in the app's settings, the app requests one scope, <code>https://www.googleapis.com/auth/drive.file</code>. It covers only files the app created or that you opened with the app. The app does not access other Drive files or any other Google data.</p>
+  <p><strong>Use.</strong> Drive access is used for one purpose: syncing your library between your own devices. The app creates, reads and updates book files and covers you added, reading position, bookmarks, highlights and notes, and index files needed for syncing. This data is not used for advertising, analytics, profiling or training AI models.</p>
+  <p><strong>Storage.</strong> On your device (books, reading records, settings; Google sign-in tokens are kept in the device's secure storage) and in your Google Drive. The developer runs no server and never receives or stores your books, reading records or Google account information.</p>
+  <p><strong>Sharing.</strong> None. Google user data is not sold, transferred or shared with third parties. Usage analytics and crash reporting are disabled in this build. Optional features you turn on yourself (translation, dictionary, read-aloud) send requests to the corresponding external service only when used, and never send data from your Google Drive.</p>
+  <p><strong>Retention and deletion.</strong> Disconnecting Google Drive in the app removes the sign-in token from the device. You can delete the synced files in Google Drive, and revoke the app's access at any time in your <a href="https://myaccount.google.com/permissions" rel="noopener">Google Account's third-party access settings</a>. Uninstalling the app removes its data from the device.</p>
+  <p><strong>Limited Use.</strong> The app's use and transfer to any other app of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <p><strong>Contact.</strong> <a href="https://github.com/KKOKKU/Public_site/issues" rel="noopener">github.com/KKOKKU/Public_site/issues</a></p>
+  </div>
+
+  <nav class="links" aria-label="문서">
+    <a href="./">앱 소개 · Home</a>
+    <a href="terms.html">서비스 약관 · Terms of Service</a>
+  </nav>
+</main>
+</body>
+</html>
